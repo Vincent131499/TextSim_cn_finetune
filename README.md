@@ -22,10 +22,10 @@
 bash train.sh
 ```
 运行参数说明：
-BERT_BASE_DIR：下载的预训练语言模型所在路径（本文使用的是Roberta-base模型，下载地址：链接：https://pan.baidu.com/s/1qVzinv0KzFzKHIABJKquuw&shfl=sharepset  提取码：usav）
-DATA_DIR：数据集所在路径，该路径下包括三个文件train.tsv,dev.tsv,test.tsv
-TRAINED_CLASSIFIER：模型保存的路径
-MODEL_NAME：模型名称。模型保存时会保存在$TRAINED_CLASSIFIER/$MODEL_NAME目录下
+BERT_BASE_DIR：下载的预训练语言模型所在路径（本文使用的是Roberta-base模型，下载地址：链接：https://pan.baidu.com/s/1qVzinv0KzFzKHIABJKquuw&shfl=sharepset  提取码：usav）<br>
+DATA_DIR：数据集所在路径，该路径下包括三个文件train.tsv,dev.tsv,test.tsv<br>
+TRAINED_CLASSIFIER：模型保存的路径<br>
+MODEL_NAME：模型名称。模型保存时会保存在$TRAINED_CLASSIFIER/$MODEL_NAME目录下<br>
 ## 模型导出
 模型训练完成会在指定的$TRAINED_CLASSIFIER/$MODEL_NAME目录下生成ckpt格式的文件，如下所示：<br>
 * checkpoint
