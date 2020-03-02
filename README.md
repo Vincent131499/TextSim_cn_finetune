@@ -1,5 +1,9 @@
 # TextSim_cn_finetune
 微调预训练语言模型(BERT、Roberta、XLBert等),用于计算两个文本之间的相似度（通过句子对分类任务转换）,适用于中文文本
+
+## 项目变动
+2020-3-2：新增tf-serving模块部署方式
+
 ## 项目描述
 * 项目驱动
 * 数据集
@@ -50,10 +54,12 @@ python test_serving.py
 运行效果：<br>
 ![线下推理](https://github.com/Vincent131499/TextSim_cn_finetune/raw/master/imgs/offline_show.jpg)
 ### 线上实时预测
+方式1：flask简单部署
 运行命令：
 ```Bash
 python test_serving_api.py
 ```
-通过flask进行了简单部署<br>
 运行效果：<br>
 ![线下推理](https://github.com/Vincent131499/TextSim_cn_finetune/raw/master/imgs/api_show.jpg)
+方式2：tf-serving部署
+详细部署步骤可参考[this post](https://vincent131499.github.io/2020/02/28/以BERT分类为例阐述模型部署关键技术)
