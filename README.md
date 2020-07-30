@@ -2,7 +2,7 @@
 微调预训练语言模型(BERT、Roberta、XLBert等),用于计算两个文本之间的相似度（通过句子对分类任务转换）,适用于中文文本
 
 ## 项目变动
-2020-07-23：在使用AlBert时，请将该项目下的modeling.py文件更新为官方ALBert项目中下的modeling.py，而后在运行。
+2020-07-23：在使用AlBert时，请将该项目下的modeling.py文件更新为官方ALBert项目中下的modeling.py，而后在运行。<br>
 2020-3-2：新增tf-serving模块部署方式。
 
 ## 项目描述
